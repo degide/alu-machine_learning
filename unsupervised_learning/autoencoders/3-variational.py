@@ -67,4 +67,3 @@ def autoencoder(input_dims, hidden_layers, latent_dims):
 
     auto.compile(loss=vae_loss, optimizer='adam')
     return encoder, decoder, auto
-
